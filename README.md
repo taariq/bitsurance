@@ -33,22 +33,36 @@ Earthquake insurance covers some of the losses and damage that earthquakes can c
 
 Earthquake Contract Coins
 --------------------------
+
 Contracts are issued in the form of generic EarthquakeCoins. A customer may purchase an EarthquakeCoin by purchasing an annual Each Earthquake coin is issued as divisible up to eight decimal places and is redeemable for some agreed upon value in the event of an earthquake in a pre-specified location.
 
 
-Redeeming claims after an earthquake
+Decentralized claim filing after an earthquake
+-----------------------------------------------
+
+In order to validate a claim, redeemers must provide proof of claim via a [ZipCodeCoin/ZipCodeAddress/some other mechanism]. bitinsurance makes automatic decentralized bitcoin payments based on the following trustless measurements:
+
+* Long/Lat of the epicenter of the earthquake
+* Strength and duration of the earthquake
+* Impact of strenght of earthquake on building structures
+
+This decouples the value of an EarthquakeCoin from the identity of its owner, making EarthquakeCoins generic, fungible units and promoting a liquid secondary market while preventing bad actors from fraudulently claiming loss from multiple locations. To that end, each EarthquakeCoin may only be associated with one location to prevent anyone from inflating the value of their coins by associating them with payouts from multiple locations (for instance, by purchasing multiple ZipCodeCoins).
+
+EarthquakeCoin Premium pricing
+-------------------------------
+
+The fee schedule will provide purchaser's with an estimate of the amount of EarthquakeCoins they should purchase in order to make themselves whole. This will vary with their location and subsequent risk exposure (since the
+risk of loss from earthquakes is higher in Los Angeles than Nebraska, an individual in Los Angeles would likely purchase more EarthquakeCoins than her counterpart in  Nebraska). Payouts will be triggered when some condition
+is met as determined by a trusted, 3rd party feed.
+
+Earthquake Coverage Limits
 --------------------------
 
-In order to validate a claim, redeemers must provide proof of claim via a [ZipCodeCoin/ZipCodeAddress/some other mechanism]. This decouples the value of an EarthquakeCoin from the identity of its owner, making EarthquakeCoins generic, fungible units and promoting a liquid secondary market while preventing bad actors from fraudulently claiming loss from multiple locations. To that end, each EarthquakeCoin may only be associated with one location to prevent anyone from inflating the value of their coins by associating them with payouts from multiple locations (for instance, by purchasing multiple ZipCodeCoins).
+Coverage limits and exclusions usually depend on a trusted intemediary to enforce contract constraints. EarthquakeCoins lack a trusted third party intermediary. Therefore, funds are paid to all bitcoin addresses that are linked to the affected area and the system will not dictate the use of funds once delivered.
 
 
-The fee schedule will provide purchaser's with an estimate of the amount
-of EarthquakeCoins they should purchase in order to make themselves whole.
-This will vary with their location and subsequent risk exposure (since the
-risk of loss from earthquakes is higher in Los Angeles than Nebraska, an
-individual in Los Angeles would likely purchase more EarthquakeCoins than
-her counterpart in  Nebraska). Payouts will be triggered when some condition
-is met as determined by a trusted, 3rd party feed.
+Securing EarthquakeCoins
+-------------------------
 
 Premiums are used to purchase [GoldCoins or some basket of stable, inflation
 resistant assets] which back the EarthquakeCoins and which are used to
