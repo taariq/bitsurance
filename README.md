@@ -57,7 +57,7 @@ is met as determined by a trusted, 3rd party feed.
 
 Earthquake Coverage Limits
 --------------------------
-## Aftershocks
+	## Aftershocks
 
 The protocol system will not offer new policies for any geographical location that has an earthquake and may be at risk for an ongoing period of aftershocks.
 
