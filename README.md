@@ -55,12 +55,9 @@ The fee schedule will provide purchaser's with an estimate of the amount of Eart
 risk of loss from earthquakes is higher in Los Angeles than Nebraska, an individual in Los Angeles would likely purchase more EarthquakeCoins than her counterpart in  Nebraska). Payouts will be triggered when some condition
 is met as determined by a trusted, 3rd party feed.
 
-Earthquake Coverage Limits
+Earthquake Coverage Limits (Aftershocks) 
 --------------------------
-	## Aftershocks
-
-The protocol system will not offer new policies for any geographical location that has an earthquake and may be at risk for an ongoing period of aftershocks.
-
+The protocol system will not offer new policies for any geographical location that has an earthquake and may be at risk for an ongoing period of aftershocks. The protocol will disable any new purchaes of EarthquakeCoins by a certain geographic location for a period of 1 week or 2 weeks.
 
 
 Securing EarthquakeCoins
