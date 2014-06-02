@@ -58,7 +58,10 @@ is met as determined by a trusted, 3rd party feed.
 Earthquake Coverage Limits
 --------------------------
 
-Coverage limits and exclusions usually depend on a trusted intemediary to enforce contract constraints. EarthquakeCoins lack a trusted third party intermediary. Therefore, funds are paid to all bitcoin addresses that are linked to the affected area and the system will not dictate the use of funds once delivered.
+# Aftershocks
+
+The protocol system will not offer new policies for any geographical location that has an earthquake and may be at risk for an ongoing period of aftershocks.
+
 
 
 Securing EarthquakeCoins
