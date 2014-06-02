@@ -1,7 +1,15 @@
 bitsurance
 ==========
 
-Blockchain insurance protocol
+An experimental Blockchain insurance protocol
+
+Version 0.1 
+
+* Michael Ergorov (https://github.com/)
+* MacLane Wilkison (https://github.com/mswilkison)
+* Eliot Weber (https://github.com/)
+* Taariq Lewis (https://github.com/taariq)
+
 
 Overview
 --------
@@ -11,6 +19,17 @@ the instant purchase of insurance contracts covering some pre-specified
 event. For illustrative purposes, we will assume the insurance being
 purchased is for protection against earthquakes, but the protocol should
 be generalizable to other forms of insurance.
+
+Assumptions
+-------------
+
+Our claims are built on the following assumptions:
+
+* We are able to identify a decentralized feed for earthquake events
+* We are able to effecitvely price insurance coverage premiums in any geographic location
+* We are able to adequately and programmaitcally make appropriate payments to the correct address without a centralized system
+
+
 
 Contracts are issued in the form of generic EarthquakeCoins, each of which
 is redeemable for some agreed upon value in the event of an earthquake in
